@@ -17,6 +17,7 @@
                 android:id="@+id/btnLight"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/icon_flashlight" />
@@ -25,6 +26,7 @@
                 android:id="@+id/btnNeon"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/icon_neon" />
@@ -33,6 +35,7 @@
                 android:id="@+id/btnPolic"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/icon_polic" />
@@ -43,6 +46,7 @@
                 android:id="@+id/btnTraffic"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/icon_traffic" />
@@ -51,6 +55,7 @@
                 android:id="@+id/btnWarring"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/icon_warring" />
@@ -59,11 +64,11 @@
                 android:id="@+id/btnFlashLight"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitCenter"
                 android:src="@drawable/icon_flashlight1" />
         </TableRow>
-
 
     </TableLayout>
 </RelativeLayout>

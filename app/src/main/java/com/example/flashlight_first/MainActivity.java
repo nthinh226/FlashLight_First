@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(iMenu);
                 finish();
             }
-        },5000);
+        },2000);
     }
 }
