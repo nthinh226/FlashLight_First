@@ -12,6 +12,8 @@ public class MenuActivity extends Activity implements View.OnClickListener {
     ImageButton btnLight;
     ImageButton btnNeon;
     ImageButton btnWaring;
+    ImageButton btnPolice;
+    ImageButton btnTraffic;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,10 +21,15 @@ public class MenuActivity extends Activity implements View.OnClickListener {
         btnLight = (ImageButton) findViewById(R.id.btnLight);
         btnNeon = (ImageButton) findViewById(R.id.btnNeon);
         btnWaring = (ImageButton) findViewById(R.id.btnWarring);
+        btnPolice = (ImageButton) findViewById(R.id.btnPolice);
+        btnTraffic = (ImageButton) findViewById(R.id.btnTraffic);
+
 
         btnLight.setOnClickListener(this);
         btnNeon.setOnClickListener(this);
         btnWaring.setOnClickListener(this);
+        btnPolice.setOnClickListener(this);
+        btnTraffic.setOnClickListener(this);
     }
 
     @Override
@@ -39,6 +46,14 @@ public class MenuActivity extends Activity implements View.OnClickListener {
             case R.id.btnWarring:
                 Intent warring = new Intent(this, WarringActivity.class);
                 startActivity(warring);
+                break;
+            case R.id.btnPolice:
+                Intent police = new Intent(this, PoliceLightActivity.class);
+                startActivity(police);
+                break;
+            case R.id.btnTraffic:
+                Intent traffic = new Intent(this, TrafficActivity.class);
+                startActivity(traffic);
                 break;
         }
 

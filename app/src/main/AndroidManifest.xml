@@ -9,9 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FlashLight_First">
-        <activity android:name=".WarringActivity"
-            android:label="Warring Light"
+        <activity android:name=".TrafficActivity"
+            android:label="Traffic Light"
             android:parentActivityName=".MenuActivity"></activity>
+        <activity
+            android:name=".PoliceLightActivity"
+            android:label="Police"
+            android:parentActivityName=".MenuActivity"/>
+        <activity
+            android:name=".WarringActivity"
+            android:label="Warring Light"
+            android:parentActivityName=".MenuActivity" />
         <activity
             android:name=".NeonActivity"
             android:label="Neon Light"
